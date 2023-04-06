@@ -1,0 +1,527 @@
+[{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "2360013c-09ba-4199-a0de-2d9b0caa6bb1",
+			"name": "Making Sense with Sam Harris",
+			"episodes": [
+				{
+					"uuid": "614a999a-aa30-4f2e-a84c-057a8e31e2e4",
+					"datePublished": 1680279180,
+					"name": "#314 — The Cancellation of J.K. Rowling",
+					"duration": 3258
+				},
+				{
+					"uuid": "160b84fc-3608-4faf-a758-147e143c0590",
+					"datePublished": 1679761620,
+					"name": "#313 — Apocalypse",
+					"duration": 2107
+				},
+				{
+					"uuid": "9cbe7808-ceb8-4668-81a0-4a0169ea21ed",
+					"datePublished": 1678900560,
+					"name": "Making Sense of Belief and Unbelief | Episode 6 of The Essential Sam Harris",
+					"duration": 3790
+				},
+				{
+					"uuid": "b422af7a-b79e-44da-8e7a-b44c8436261d",
+					"datePublished": 1678205760,
+					"name": "#312 — The Trouble with AI",
+					"duration": 5219
+				},
+				{
+					"uuid": "9874e181-320d-4057-84da-6d229f5a2d69",
+					"datePublished": 1676920080,
+					"name": "#311 — Did SARS-CoV-2 Escape from a Lab?",
+					"duration": 3498
+				},
+				{
+					"uuid": "e67bec99-3d86-44a4-a2fd-46cb8c58ee2a",
+					"datePublished": 1676394840,
+					"name": "Making Sense of Free Will | Episode 5 of The Essential Sam Harris",
+					"duration": 2658
+				},
+				{
+					"uuid": "c1f72965-3a37-4633-bd0e-368561f88b07",
+					"datePublished": 1675214245,
+					"name": "#310 — Social Media & Public Trust",
+					"duration": 4123
+				},
+				{
+					"uuid": "17730b3c-f184-4ad0-ad3f-90c019591ee8",
+					"datePublished": 1674755220,
+					"name": "Making Sense of Encounters With Violence | Episode 4 of The Essential Sam Harris",
+					"duration": 2179
+				},
+				{
+					"uuid": "7005ce1f-fe0c-4246-b749-106389b600f5",
+					"datePublished": 1674183733,
+					"name": "#309 — Vulnerability, Politics, and Moral Worth",
+					"duration": 2726
+				},
+				{
+					"uuid": "832bec70-26cf-4480-bcf5-a05eae0f41ff",
+					"datePublished": 1673452241,
+					"name": "#308 — The Long Game",
+					"duration": 2046
+				}
+			],
+			"itunesId": 733163012,
+			"description": "Join neuroscientist, philosopher, and five-time New York Times best-selling author Sam Harris as he explores important and controversial questions about the mind, society, current events, moral philosophy, religion, and rationality—with an overarching focus on how a growing understanding of ourselves and the world is changing our sense of how we should live. \n\nSam is also the creator of the Waking Up app. Combining Sam’s decades of mindfulness practice, profound wisdom from varied philosophical and contemplative traditions, and a commitment to a secular, scientific worldview, Waking Up is a resource for anyone interested in living a more examined, fulfilling life—and a new operating system for the mind. \n\nWaking Up offers free subscriptions to anyone who can’t afford one, and donates a minimum of 10% of profits to the most effective charities around the world. To learn more, please go to WakingUp.com.  \n\nSam Harris received a degree in philosophy from Stanford University and a Ph.D. in neuroscience from UCLA.",
+			"imageUrl": "https://ssl-static.libsyn.com/p/assets/0/9/7/e/097e1e1107a7009a/MAKING_SENSE_MASTER.png",
+			"authorName": "Sam Harris"
+		}
+	},
+    "popular": true
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "5130d672-6407-432e-82a1-f589bef48852",
+			"name": "Afford Anything",
+			"episodes": [
+				{
+					"uuid": "f8b6ce42-acc3-4aee-8c85-861606f63266",
+					"datePublished": 1680670800,
+					"name": "Ask Paula: How To Prepare for A Layoff",
+					"duration": 4489
+				},
+				{
+					"uuid": "55e0d5c6-59fe-4f1a-8266-b480e3254d72",
+					"datePublished": 1680178740,
+					"name": "Tips for Tipped Workers, with Barbara Sloan",
+					"duration": 3095
+				},
+				{
+					"uuid": "b7ed54e6-9510-4adb-9a75-83d2af55b9e4",
+					"datePublished": 1679461200,
+					"name": "Ask Paula: Should I Quit My Cushy Job?",
+					"duration": 4667
+				},
+				{
+					"uuid": "da0442e4-f17d-4c9c-b28f-ca925edff35b",
+					"datePublished": 1678904280,
+					"name": "The Risk of Not Fully Living, with Michael Lynch",
+					"duration": 3005
+				},
+				{
+					"uuid": "075e2e2e-d6ee-4f63-a563-0454c5d85591",
+					"datePublished": 1678386888,
+					"name": "Mr. Money Mustache Talks About His Dating Life",
+					"duration": 4199
+				},
+				{
+					"uuid": "78c3e240-a8be-49b1-b67b-8d1e40e8c0c9",
+					"datePublished": 1677650400,
+					"name": "Ask Paula: My Parents Are Drowning In Credit Card Debt. What Should I Do?",
+					"duration": 3627
+				},
+				{
+					"uuid": "bff60573-d659-48cd-a7d6-45273d4d83bc",
+					"datePublished": 1677155400,
+					"name": "How BIG Things Get Done, with Dr. Bent Flyvberg",
+					"duration": 3196
+				},
+				{
+					"uuid": "acd82f55-1dde-4d84-aa8f-8435e78eca56",
+					"datePublished": 1676568960,
+					"name": "Ask Paula: Do I really need a Financial Advisor?",
+					"duration": 3660
+				},
+				{
+					"uuid": "a81aa5c4-7e2b-43bc-b61b-4ebf8714d933",
+					"datePublished": 1675993440,
+					"name": "Start a Micro-Business & Build Multiple Income Streams, with Nick Loper",
+					"duration": 3821
+				},
+				{
+					"uuid": "05a46335-ea5a-46b5-9ab4-f342d2fdcd04",
+					"datePublished": 1675478760,
+					"name": "Key Takeaways: Best Lessons from the Last Year",
+					"duration": 4943
+				}
+			],
+			"itunesId": 1079598542,
+			"description": "You can afford anything, but not everything. We make daily decisions about how to spend money, time, energy, focus and attention – and ultimately, our life.\nHow do we make smarter decisions? How do we think from first principles?\nOn the surface, Afford Anything seems like a podcast about money and investing.\nBut under the hood, this is a show about how to think critically, recognize our behavioral blind spots, and make smarter choices. We’re into the psychology of money, and we love metacognition: thinking about how to think.\nIn some episodes, we interview world-class experts: professors, researchers, scientists, authors. In other episodes, we answer your questions, talking through decision-making frameworks and mental models.\nWant to learn more? Download our free book, Escape, at http://affordanything.com/escape. Hosted by Paula Pant.",
+			"imageUrl": "https://megaphone.imgix.net/podcasts/76596ff0-aae1-11ec-9d71-2f600d8e89e7/image/_artwork_-_AffAny_2019-06_1400_347kb.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"authorName": "Paula Pant | Cumulus Podcast Network"
+		}
+	},
+    "popular": true
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "afd89860-866c-4ceb-b4f0-c290d77dad90",
+			"name": "Dan Carlin's Hardcore History",
+			"episodes": [
+				{
+					"uuid": "ac0a705b-f3ee-40f4-9f7f-f866c72ab0b3",
+					"datePublished": 1673824853,
+					"name": "Show 69 - Twilight of the Aesir",
+					"duration": 18655
+				},
+				{
+					"uuid": "858cf723-ed50-49e8-bebc-88b81edc4b85",
+					"datePublished": 1646622524,
+					"name": "Show 68 - BLITZ Human Resources",
+					"duration": 20352
+				},
+				{
+					"uuid": "8ed06932-bbfc-491d-8d25-5a8150440b91",
+					"datePublished": 1623194435,
+					"name": "Show 67 - Supernova in the East VI",
+					"duration": 20752
+				},
+				{
+					"uuid": "d251b722-1c3a-4050-b4d7-a84fd75b57e2",
+					"datePublished": 1605316106,
+					"name": "Show 66 - Supernova in the East V",
+					"duration": 12754
+				},
+				{
+					"uuid": "fa3dd1af-3fed-4316-9a4b-28d099c9aaa3",
+					"datePublished": 1591226444,
+					"name": "Show 65 - Supernova in the East IV",
+					"duration": 14313
+				},
+				{
+					"uuid": "711ad2bf-e955-4f36-ac60-0badc28817db",
+					"datePublished": 1571962253,
+					"name": "Show 64 - Supernova in the East III",
+					"duration": 17623
+				},
+				{
+					"uuid": "06e93576-cacd-4926-a003-b3a3bddde84a",
+					"datePublished": 1547316464,
+					"name": "Show 63 - Supernova in the East II",
+					"duration": 14515
+				},
+				{
+					"uuid": "e1917709-357f-4ffd-9828-62343169fe73",
+					"datePublished": 1531598735,
+					"name": "Show 62 - Supernova in the East I",
+					"duration": 16097
+				},
+				{
+					"uuid": "7fa06e92-2099-46d3-ac47-5e0ef9501577",
+					"datePublished": 1517126324,
+					"name": "Show 61 - (Blitz) Painfotainment",
+					"duration": 16261
+				},
+				{
+					"uuid": "803a0d59-56c6-43fd-889a-f5ba855ea3a7",
+					"datePublished": 1502320853,
+					"name": "Show 60 - The Celtic Holocaust",
+					"duration": 21591
+				}
+			],
+			"itunesId": 173001861,
+			"description": "In \"Hardcore History\" journalist and broadcaster Dan Carlin takes his \"Martian\", unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn't academic history (and Carlin isn't a historian) but the podcast's unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
+			"imageUrl": "http://www.dancarlin.com/graphics/DC_HH_iTunes.jpg",
+			"authorName": "Dan Carlin"
+		}
+	},
+	"popular": false
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "5a19a96d-8c19-4f29-9cb5-91696baf69dd",
+			"name": "Today in Focus",
+			"episodes": [
+				{
+					"uuid": "e992d02d-1bb8-476c-8c7a-b5c645ceac57",
+					"datePublished": 1680660021,
+					"name": "Why headteachers are fighting back against Ofsted inspections",
+					"duration": 1672
+				},
+				{
+					"uuid": "f91b34f4-4fad-422d-8054-7a47d0a379bb",
+					"datePublished": 1680573633,
+					"name": "The indictment of Donald Trump",
+					"duration": 1639
+				},
+				{
+					"uuid": "75c215ef-12cf-4a3a-91b4-90f528e308c9",
+					"datePublished": 1680487236,
+					"name": "Cotton Capital: the bee and the ship – examining the Guardian’s links to slavery",
+					"duration": 2789
+				},
+				{
+					"uuid": "310526aa-ed98-4f64-b30b-7ff26092e7ab",
+					"datePublished": 1680228009,
+					"name": "How raising the retirement age set France on fire",
+					"duration": 1575
+				},
+				{
+					"uuid": "2d1dccae-3219-4455-9c7d-6b92ef66ef96",
+					"datePublished": 1680141650,
+					"name": "Why are British teenagers being locked up in ‘re-education camps’?",
+					"duration": 1920
+				},
+				{
+					"uuid": "c28c05b1-1fcb-410a-9e63-159db6858720",
+					"datePublished": 1680055222,
+					"name": "Who is Humza Yousaf and how will he change Scotland?",
+					"duration": 1770
+				},
+				{
+					"uuid": "7bce75e7-fe47-4313-9f83-c851aa8f47cb",
+					"datePublished": 1679968803,
+					"name": "‘It’s way beyond just science’: untangling the hunt for Covid’s origins",
+					"duration": 1672
+				},
+				{
+					"uuid": "b96cd351-f6bb-4018-9206-8fb0a941d691",
+					"datePublished": 1679882434,
+					"name": "Exposing the myth of Britain’s ‘perfect’ war against Islamic State",
+					"duration": 2403
+				},
+				{
+					"uuid": "e5194bde-b5b9-4c26-af40-cbf87ae3c624",
+					"datePublished": 1679796005,
+					"name": "Trafficked: Marta - part four",
+					"duration": 2012
+				},
+				{
+					"uuid": "f7d3e797-13e9-43eb-a7bd-3477315c8bbf",
+					"datePublished": 1679713237,
+					"name": "Trafficked: the operation – part three",
+					"duration": 2538
+				}
+			],
+			"itunesId": 1440133626,
+			"description": "Hosted by Nosheen Iqbal and Michael Safi, Today in Focus brings you closer to Guardian journalism. Combining personal storytelling with insightful analysis, this podcast takes you behind the headlines for a deeper understanding of the news, every weekday",
+			"imageUrl": "https://uploads.guim.co.uk/2022/02/10/TiF_FINAL_3000x3000.jpg",
+			"authorName": "The Guardian"
+		}
+	},
+	"popular": false
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "d682a935-ad2d-46ee-a0ac-139198b83bcc",
+			"name": "This American Life",
+			"episodes": [
+				{
+					"uuid": "9b0df3f1-928b-4380-b76c-cf4e13f002fb",
+					"datePublished": 1680472800,
+					"name": "765: Off Course",
+					"duration": 3979
+				},
+				{
+					"uuid": "03dc2e75-d127-4eb4-b64a-e85a652368c5",
+					"datePublished": 1679868000,
+					"name": "794: So Close and Yet So Far",
+					"duration": 3823
+				},
+				{
+					"uuid": "4e8c8d1b-3aee-4def-9604-5536bc08ad38",
+					"datePublished": 1679263200,
+					"name": "654: The Feather Heist",
+					"duration": 3911
+				},
+				{
+					"uuid": "5cc3cb9f-578d-405f-8435-4393f9976973",
+					"datePublished": 1678662000,
+					"name": "793: The Problem with Ghosts",
+					"duration": 3798
+				},
+				{
+					"uuid": "4c0a87b1-27bb-4bc5-8a52-f64138ae9a46",
+					"datePublished": 1678057200,
+					"name": "792: When to Leave",
+					"duration": 3710
+				},
+				{
+					"uuid": "c032f15b-ea7c-4b7a-9329-784e39dbf05d",
+					"datePublished": 1676242800,
+					"name": "791: Math or Magic?",
+					"duration": 3394
+				},
+				{
+					"uuid": "d746b372-e62c-4a8b-a5d1-11e1dda2edd1",
+					"datePublished": 1675033200,
+					"name": "790: You're It",
+					"duration": 3590
+				},
+				{
+					"uuid": "c5a12abd-3345-4d8e-b2f1-350229bb51e1",
+					"datePublished": 1674428400,
+					"name": "789: The Runaround",
+					"duration": 3782
+				},
+				{
+					"uuid": "23e1924c-550d-4cba-a77e-736adbf2ae2a",
+					"datePublished": 1673218800,
+					"name": "788: Half-Baked Stories About My Dead Mom",
+					"duration": 3711
+				},
+				{
+					"uuid": "e6db3821-5e12-433e-9b31-66285a7e9110",
+					"datePublished": 1672009200,
+					"name": "787: Baby's First Christmas",
+					"duration": 3538
+				}
+			],
+			"itunesId": 201671138,
+			"description": "This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to stations by PRX The Public Radio Exchange, and has won all of the major broadcasting awards.",
+			"imageUrl": "https://files.thisamericanlife.org/sites/all/themes/thislife/img/tal-name-1400x1400.png",
+			"authorName": "This American Life"
+		}
+	},
+	"popular": false
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "f371face-6b5d-4733-831f-3d242026248c",
+			"name": "Planet Money",
+			"episodes": [
+				{
+					"uuid": "8953f9aa-aa3e-4ea8-adf2-a85475230f51",
+					"datePublished": 1680728734,
+					"name": "The battle for Puerto Rico's beaches",
+					"duration": 1386
+				},
+				{
+					"uuid": "07805e1c-aa76-4ee1-8647-dfd889c431e5",
+					"datePublished": 1680309017,
+					"name": "The safety net for banks",
+					"duration": 1399
+				},
+				{
+					"uuid": "21f31b11-e2c9-4bcb-aa4c-9e7c9c0a1e74",
+					"datePublished": 1680139920,
+					"name": "A Great Recession bank takeover",
+					"duration": 1122
+				},
+				{
+					"uuid": "83b73142-a7e3-4177-8dba-e92624f9ee75",
+					"datePublished": 1679709664,
+					"name": "The battle over Osage headrights",
+					"duration": 1424
+				},
+				{
+					"uuid": "76bc3c81-a7c5-4021-8377-4a2ee31a2a8c",
+					"datePublished": 1679549589,
+					"name": "Inside a bank run",
+					"duration": 2019
+				},
+				{
+					"uuid": "8285119f-7196-4cf5-8ec7-a6fc139d93fb",
+					"datePublished": 1679101459,
+					"name": "Planet Money Records Vol. 3: Making a hit",
+					"duration": 1771
+				},
+				{
+					"uuid": "73b228d0-523b-4c2d-8142-ce685664ff81",
+					"datePublished": 1678926911,
+					"name": "How Silicon Valley Bank failed",
+					"duration": 1262
+				},
+				{
+					"uuid": "1ea6d6a2-69ee-420f-b1df-a907f4424660",
+					"datePublished": 1678496932,
+					"name": "Dude, where's my streaming TV show?",
+					"duration": 1562
+				},
+				{
+					"uuid": "f8dc973a-264d-46f0-ac94-3bf8362041e6",
+					"datePublished": 1678321384,
+					"name": "The value of good teeth",
+					"duration": 1330
+				},
+				{
+					"uuid": "54acc50a-511f-4f4a-a253-1858149cfd43",
+					"datePublished": 1677884942,
+					"name": "Seinfeld-onomics",
+					"duration": 1114
+				}
+			],
+			"itunesId": 290783428,
+			"description": "Wanna see a trick? Give us any topic and we can tie it back to the economy. At <em>Planet Money</em>, we explore the forces that shape our lives and bring you along for the ride. Don't just understand the economy – understand the world.<br /><br /><em>Wanna go deeper? <em>Subscribe to </em><em>Planet Money+ and get sponsor-free episodes of Planet Money, The Indicator, and Planet Money Summer School. Plus access to bonus content. It's a new way to support the show you love. Learn more at plus.npr.org/planetmoney.</em></em>",
+			"imageUrl": "https://media.npr.org/assets/img/2022/10/24/pm_new_tile_2022_sq-0a1d41f057e94952f8b8c9b7877748f439d2b415.jpg?s=1400",
+			"authorName": "NPR"
+		}
+	},
+	"popular": false
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "3d4cc5d9-b305-443f-aaed-7abc16e8239e",
+			"name": "Lex Fridman Podcast",
+			"episodes": [
+				{
+					"uuid": "3b03eb96-a0b4-4507-9edb-31ba55d37f28",
+					"datePublished": 1680634210,
+					"name": "#369 – Paul Rosolie: Amazon Jungle, Uncontacted Tribes, Anacondas, and Ayahuasca",
+					"duration": 13121
+				},
+				{
+					"uuid": "e65d2228-e615-4b38-8ab2-c18171614e7d",
+					"datePublished": 1680189269,
+					"name": "#368 – Eliezer Yudkowsky: Dangers of AI and the End of Human Civilization",
+					"duration": 12155
+				},
+				{
+					"uuid": "574e4634-e1b1-4da0-ab1a-12df37279bd6",
+					"datePublished": 1679767451,
+					"name": "#367 – Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI",
+					"duration": 8888
+				},
+				{
+					"uuid": "6f238216-8d38-4126-98e4-c7160211befc",
+					"datePublished": 1679439742,
+					"name": "#366 – Shannon Curry: Johnny Depp & Amber Heard Trial, Marriage, Dating & Love",
+					"duration": 6654
+				},
+				{
+					"uuid": "b8bf23ab-a427-4253-942a-24b4ca97189d",
+					"datePublished": 1678814374,
+					"name": "#365 – Sam Harris: Trump, Pandemic, Twitter, Elon, Bret, IDW, Kanye, AI & UFOs",
+					"duration": 16420
+				},
+				{
+					"uuid": "2f8b6beb-860b-4602-b154-c29e50927672",
+					"datePublished": 1678468587,
+					"name": "#364 – Chris Voss: FBI Hostage Negotiator",
+					"duration": 8156
+				},
+				{
+					"uuid": "0636b2f0-f588-4c87-936b-921599afab85",
+					"datePublished": 1678127638,
+					"name": "#363 – B-Team Jiu Jitsu: Craig Jones, Nicky Rod, and Nicky Ryan",
+					"duration": 10451
+				},
+				{
+					"uuid": "0fc929f5-1def-42e1-8e05-64bff8681291",
+					"datePublished": 1677784122,
+					"name": "#362 – Ginni Rometty: IBM CEO on Leadership, Power, and Adversity",
+					"duration": 6986
+				},
+				{
+					"uuid": "68067dbe-5007-4729-bc04-df480353d223",
+					"datePublished": 1677356813,
+					"name": "#361 – Aaron Smith-Levin: Scientology",
+					"duration": 8275
+				},
+				{
+					"uuid": "aee139eb-8034-4df6-86ba-776697ff0229",
+					"datePublished": 1676924332,
+					"name": "#360 – Tim Urban: Tribalism, Marxism, Liberalism, Social Justice, and Politics",
+					"duration": 11458
+				}
+			],
+			"itunesId": 1434243584,
+			"description": "Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power. Lex is an AI researcher at MIT and beyond.",
+			"imageUrl": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
+			"authorName": "Lex Fridman"
+		}
+	},
+	"popular": false
+}
+
+]
