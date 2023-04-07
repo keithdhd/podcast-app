@@ -14,6 +14,16 @@ function App() {
 
   const TADDY_API_URL = "https://api.taddy.org"
 
+    // Instantiate Apollo Client
+    const client = new ApolloClient({
+      uri: TADDY_API_URL,
+      cache: new InMemoryCache(),
+      headers: {
+        'X-API-KEY': '',
+        'X-USER-ID': ''
+      }
+    });
+
   let { uuid } = useParams();
 
   const mainMenuItems: Array<MenuItem> = [
@@ -36,11 +46,7 @@ function App() {
     {description: "Get the iOS app", icon: faUpRightFromSquare},
   ]
 
-  // Instantiate Apollo Client
-  const client = new ApolloClient({
-    uri: TADDY_API_URL,
-    cache: new InMemoryCache(),
-  });
+
 
   return (
     <div className="App">
