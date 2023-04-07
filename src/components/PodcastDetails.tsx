@@ -22,7 +22,6 @@ export default function PodcastDetails({ uuid } : PodcastDetailsProps){
     if (error) return <p>Error : {error.message} </p>;
     
     const podcastData: Podcast = {data: data}
-    console.log(podcastData.data.getPodcastSeries.episodes[0].description)
 
     const duration = Math.floor(podcastData.data.getPodcastSeries.episodes[0].duration / 60);
 
