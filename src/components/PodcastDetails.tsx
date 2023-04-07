@@ -8,6 +8,7 @@ import * as dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 dayjs.extend(relativeTime)
 
+
 interface PodcastDetailsProps { 
     uuid: string
 }
@@ -16,13 +17,14 @@ export default function PodcastDetails({ uuid } : PodcastDetailsProps){
 
     const GET_PODCAST = fetchPodcast(uuid)
     const { loading, error, data } = useQuery(GET_PODCAST);
-  
+
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error : {error.message} </p>;
     
     const podcastData: Podcast = {data: data}
-
     console.log(podcastData.data.getPodcastSeries.episodes[0].description)
+
+    const duration = Math.floor(podcastData.data.getPodcastSeries.episodes[0].duration / 60);
 
     return ( 
         <Container>
@@ -39,24 +41,43 @@ export default function PodcastDetails({ uuid } : PodcastDetailsProps){
             </Top>
             <Bottom>
                 <DatePublished>
-                    {dayjs().to(dayjs.unix(podcastData.data.getPodcastSeries.episodes[0].datePublished))}
+                    {dayjs().to(dayjs.unix(podcastData?.data.getPodcastSeries.episodes[0].datePublished))}
                 </DatePublished>
                
                 <EpisodeTitle>
-                    {podcastData.data.getPodcastSeries.episodes[0].name}
-                    <br />
-                    {podcastData.data.getPodcastSeries.episodes[0].description}
+                    {podcastData?.data.getPodcastSeries.episodes[0].name}
                 </EpisodeTitle>
 
+                <EpisodeDescription>
+                    <div dangerouslySetInnerHTML={{__html: `${podcastData?.data.getPodcastSeries.episodes[0].description}`}} />
+                </EpisodeDescription>
+                
                 <PlayButton 
-                    duration={3} 
-                    itunesId={123}/>
+                    duration={duration} 
+                    itunesId={podcastData?.data.getPodcastSeries.itunesId}/>
 
             </Bottom>
         </Container>
     )
 
 }
+
+const EpisodeDescription = styled.div`
+    letter-spacing: .01428571em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    color: #3c4043;
+    margin-top: 4px;
+    white-space: pre-line;
+    text-align: left;
+`
 
 const DatePublished = styled.h6`
     letter-spacing: .025em;
@@ -118,7 +139,7 @@ const Container = styled.div`
     margin-left: 40px;
     padding: 24px;
     position: relative;
-    width: 616px;
+    width: 580px;
 `
 
 const Bottom = styled.div`

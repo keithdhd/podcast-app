@@ -5,7 +5,7 @@ export interface Episode {
   datePublished: number;
   name: string;
   duration: number;
-  description: string;
+  description?: string;
 }
 
 export interface PodcastSeries {

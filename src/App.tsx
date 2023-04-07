@@ -19,8 +19,8 @@ function App() {
       uri: TADDY_API_URL,
       cache: new InMemoryCache(),
       headers: {
-        'X-API-KEY': import.meta.env.TADDY_API_KEY!,
-        'X-USER-ID': import.meta.env.TADDY_USER_ID!
+        'X-API-KEY': "25f1e0ed7a5c48183eb9524eaac13932e48f4b9f4d718c4e685e395b9bea1c282dd975f60707d2b007772d52cf6c6ed890",
+        'X-USER-ID': "246"
       }
     });
 

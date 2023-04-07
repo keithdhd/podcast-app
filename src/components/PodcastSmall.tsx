@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import '../../public/placeholder.jpeg'
 import { Podcast } from '../interfaces'
+import { Link } from 'react-router-dom'
 
 interface PodcastSmallProps {
     podcast: Podcast
@@ -9,12 +10,13 @@ interface PodcastSmallProps {
 export default function PodcastSmall({podcast}: PodcastSmallProps){
 
     return (
-
-        <SmallContainer>
-            <Image src={podcast.data.getPodcastSeries.imageUrl}/>
-            <PodcastTitle>{podcast.data.getPodcastSeries.name}</PodcastTitle>
-            <Publisher>{podcast.data.getPodcastSeries.authorName}</Publisher>
-        </SmallContainer>
+        <Link to={`feed/` + podcast.data.getPodcastSeries.uuid}>
+            <SmallContainer>
+                <Image src={podcast.data.getPodcastSeries.imageUrl}/>
+                <PodcastTitle>{podcast.data.getPodcastSeries.name}</PodcastTitle>
+                <Publisher>{podcast.data.getPodcastSeries.authorName}</Publisher>
+            </SmallContainer>
+        </Link>
     )
 
 }

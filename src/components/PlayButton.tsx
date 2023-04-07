@@ -29,9 +29,10 @@ const Container = styled.div`
     border-radius: 100px;
     height: 32px;
     width: 95px;
-    margin: 20px;
+    margin: 20px 20px 0 10px;
     &:hover {
         background-color: #dadce0;
+        cursor: pointer;
     }
 `
 
