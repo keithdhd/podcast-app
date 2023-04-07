@@ -1,10 +1,13 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export default function Logo(){
 
     return (
         <Header>
-            <span>CodeClan</span> Podcasts
+            <Link to="/">
+                <span>CodeClan Podcasts</span> 
+            </Link>
         </Header>
     )
 
@@ -19,7 +22,7 @@ const Header = styled.h1`
     border-bottom: 1px solid #dadce0;
     padding-bottom: 20px;
     text-align: left;
-    > span {
+    span {
         color: #3E95C0;
     }
 `

@@ -53,7 +53,7 @@ const Publisher = styled.p`
 const SmallContainer = styled.div`
     width: 100px;
     margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
 `
 
 const Image = styled.img`

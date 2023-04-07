@@ -1,3 +1,5 @@
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
+
 export interface Episode {
   uuid: string;
   datePublished: number;
@@ -13,6 +15,7 @@ export interface PodcastSeries {
   imageUrl: string;
   episodes: Array<Episode>;
   authorName: string;
+  genres: Array<string>;
 }
 
 export interface PodcastData {
@@ -21,5 +24,10 @@ export interface PodcastData {
 
 export interface Podcast {
   data: PodcastData;
-  popular: boolean;
+  popular?: boolean;
+}
+
+export interface MenuItem {
+  description: string;
+  icon?: IconProp;
 }

@@ -1,4 +1,6 @@
-[{
+[
+	
+	{
 	"data": {
 		"getPodcastSeries": {
 			"uuid": "2360013c-09ba-4199-a0de-2d9b0caa6bb1",
@@ -68,7 +70,11 @@
 			"itunesId": 733163012,
 			"description": "Join neuroscientist, philosopher, and five-time New York Times best-selling author Sam Harris as he explores important and controversial questions about the mind, society, current events, moral philosophy, religion, and rationality—with an overarching focus on how a growing understanding of ourselves and the world is changing our sense of how we should live. \n\nSam is also the creator of the Waking Up app. Combining Sam’s decades of mindfulness practice, profound wisdom from varied philosophical and contemplative traditions, and a commitment to a secular, scientific worldview, Waking Up is a resource for anyone interested in living a more examined, fulfilling life—and a new operating system for the mind. \n\nWaking Up offers free subscriptions to anyone who can’t afford one, and donates a minimum of 10% of profits to the most effective charities around the world. To learn more, please go to WakingUp.com.  \n\nSam Harris received a degree in philosophy from Stanford University and a Ph.D. in neuroscience from UCLA.",
 			"imageUrl": "https://ssl-static.libsyn.com/p/assets/0/9/7/e/097e1e1107a7009a/MAKING_SENSE_MASTER.png",
-			"authorName": "Sam Harris"
+			"authorName": "Sam Harris",
+			"genres": [
+				"PODCASTSERIES_SCIENCE",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE"
+			]
 		}
 	},
     "popular": true
@@ -143,7 +149,10 @@
 			"itunesId": 1079598542,
 			"description": "You can afford anything, but not everything. We make daily decisions about how to spend money, time, energy, focus and attention – and ultimately, our life.\nHow do we make smarter decisions? How do we think from first principles?\nOn the surface, Afford Anything seems like a podcast about money and investing.\nBut under the hood, this is a show about how to think critically, recognize our behavioral blind spots, and make smarter choices. We’re into the psychology of money, and we love metacognition: thinking about how to think.\nIn some episodes, we interview world-class experts: professors, researchers, scientists, authors. In other episodes, we answer your questions, talking through decision-making frameworks and mental models.\nWant to learn more? Download our free book, Escape, at http://affordanything.com/escape. Hosted by Paula Pant.",
 			"imageUrl": "https://megaphone.imgix.net/podcasts/76596ff0-aae1-11ec-9d71-2f600d8e89e7/image/_artwork_-_AffAny_2019-06_1400_347kb.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
-			"authorName": "Paula Pant | Cumulus Podcast Network"
+			"authorName": "Paula Pant | Cumulus Podcast Network",
+			"genres": [
+				"PODCASTSERIES_BUSINESS"
+			]
 		}
 	},
     "popular": true
@@ -218,7 +227,10 @@
 			"itunesId": 173001861,
 			"description": "In \"Hardcore History\" journalist and broadcaster Dan Carlin takes his \"Martian\", unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn't academic history (and Carlin isn't a historian) but the podcast's unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
 			"imageUrl": "http://www.dancarlin.com/graphics/DC_HH_iTunes.jpg",
-			"authorName": "Dan Carlin"
+			"authorName": "Dan Carlin",
+			"genres": [
+				"PODCASTSERIES_HISTORY"
+			]
 		}
 	},
 	"popular": false
@@ -293,7 +305,11 @@
 			"itunesId": 1440133626,
 			"description": "Hosted by Nosheen Iqbal and Michael Safi, Today in Focus brings you closer to Guardian journalism. Combining personal storytelling with insightful analysis, this podcast takes you behind the headlines for a deeper understanding of the news, every weekday",
 			"imageUrl": "https://uploads.guim.co.uk/2022/02/10/TiF_FINAL_3000x3000.jpg",
-			"authorName": "The Guardian"
+			"authorName": "The Guardian",
+			"genres": [
+				"PODCASTSERIES_NEWS_DAILY_NEWS",
+				"PODCASTSERIES_NEWS"
+			]
 		}
 	},
 	"popular": false
@@ -368,7 +384,13 @@
 			"itunesId": 201671138,
 			"description": "This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to stations by PRX The Public Radio Exchange, and has won all of the major broadcasting awards.",
 			"imageUrl": "https://files.thisamericanlife.org/sites/all/themes/thislife/img/tal-name-1400x1400.png",
-			"authorName": "This American Life"
+			"authorName": "This American Life",
+			"genres": [
+				"PODCASTSERIES_SOCIETY_AND_CULTURE",
+				"PODCASTSERIES_ARTS",
+				"PODCASTSERIES_NEWS_POLITICS",
+				"PODCASTSERIES_NEWS"
+			]
 		}
 	},
 	"popular": false
@@ -443,7 +465,11 @@
 			"itunesId": 290783428,
 			"description": "Wanna see a trick? Give us any topic and we can tie it back to the economy. At <em>Planet Money</em>, we explore the forces that shape our lives and bring you along for the ride. Don't just understand the economy – understand the world.<br /><br /><em>Wanna go deeper? <em>Subscribe to </em><em>Planet Money+ and get sponsor-free episodes of Planet Money, The Indicator, and Planet Money Summer School. Plus access to bonus content. It's a new way to support the show you love. Learn more at plus.npr.org/planetmoney.</em></em>",
 			"imageUrl": "https://media.npr.org/assets/img/2022/10/24/pm_new_tile_2022_sq-0a1d41f057e94952f8b8c9b7877748f439d2b415.jpg?s=1400",
-			"authorName": "NPR"
+			"authorName": "NPR",
+			"genres": [
+				"PODCASTSERIES_BUSINESS",
+				"PODCASTSERIES_NEWS"
+			]
 		}
 	},
 	"popular": false
@@ -518,10 +544,596 @@
 			"itunesId": 1434243584,
 			"description": "Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power. Lex is an AI researcher at MIT and beyond.",
 			"imageUrl": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
-			"authorName": "Lex Fridman"
+			"authorName": "Lex Fridman",
+			"genres": [
+				"PODCASTSERIES_TECHNOLOGY",
+				"PODCASTSERIES_SCIENCE",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE_PHILOSOPHY",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE"
+			]
 		}
 	},
 	"popular": false
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "d32fde1d-6932-440d-a184-551dc93824bc",
+			"name": "Happy Place",
+			"episodes": [
+				{
+					"uuid": "fa13655d-1767-454a-9e49-b67690af8a85",
+					"datePublished": 1680483658,
+					"name": "How To Fail x Happy Place",
+					"duration": 3343
+				},
+				{
+					"uuid": "38135178-166c-4c6d-b709-29353ba09c18",
+					"datePublished": 1679878816,
+					"name": "Sir Bradley Wiggins",
+					"duration": 2573
+				},
+				{
+					"uuid": "28fda26a-ebf4-4e17-983f-45664f49a95b",
+					"datePublished": 1679277639,
+					"name": "Spencer Matthews",
+					"duration": 3814
+				},
+				{
+					"uuid": "3dc4476f-e7e2-4602-b976-ec0936e66eff",
+					"datePublished": 1678672813,
+					"name": "All On The Board",
+					"duration": 3179
+				},
+				{
+					"uuid": "9dffe96f-7346-4bd9-ba2b-e96f82789fbc",
+					"datePublished": 1678068056,
+					"name": "Katherine May",
+					"duration": 3307
+				},
+				{
+					"uuid": "f818e584-10c1-48d4-821a-8635b72a2cc0",
+					"datePublished": 1677463239,
+					"name": "Taylor Jenkins Reid",
+					"duration": 3506
+				},
+				{
+					"uuid": "648ab331-e792-4343-8cb1-c38ed4160105",
+					"datePublished": 1676858433,
+					"name": "Gabor Maté",
+					"duration": 3164
+				},
+				{
+					"uuid": "6cc5476c-dd3d-44e9-bea2-5287f81c87ce",
+					"datePublished": 1676253605,
+					"name": "Jay Shetty",
+					"duration": 3591
+				},
+				{
+					"uuid": "8e3a80eb-ab9d-47af-8158-cf8092d463dc",
+					"datePublished": 1675675906,
+					"name": "Shania Twain",
+					"duration": 2651
+				},
+				{
+					"uuid": "b61716dd-3650-4331-be30-a15c8f21f3f1",
+					"datePublished": 1675044039,
+					"name": "Joanna Lumley and Stephen Barlow",
+					"duration": 3055
+				}
+			],
+			"itunesId": 1353058891,
+			"description": "Fearne Cotton talks to incredible people about life, love, loss, and everything in-between as she reveals what happiness means to them.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>",
+			"imageUrl": "https://assets.pippa.io/shows/62260956118c54704394e034/show-cover.jpg",
+			"authorName": "Fearne Cotton",
+			"genres": [
+				"PODCASTSERIES_SOCIETY_AND_CULTURE_PERSONAL_JOURNALS",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "b31f7861-1359-41a0-9ecd-517e4b65f04c",
+			"name": "The Jordan B. Peterson Podcast",
+			"episodes": [
+				{
+					"uuid": "afc59449-5f73-4760-ac69-39e210417f86",
+					"datePublished": 1680534000,
+					"name": "345. 12 Ways the Planet Could Truly Be Saved | Bjørn Lomborg",
+					"duration": 10186
+				},
+				{
+					"uuid": "488cec78-d75c-4433-b71e-d4ae9d10231a",
+					"datePublished": 1680188400,
+					"name": "344. State Treasurers Reject Blackrock. You Should Too | Derek Kreifels",
+					"duration": 4282
+				},
+				{
+					"uuid": "73b1f5a5-6cf8-4ea8-990f-eeddec07ec04",
+					"datePublished": 1679929200,
+					"name": "343. Parkour and Rough Play: Combatting the Over-Feminization of the West | Rafe Kelley",
+					"duration": 8112
+				},
+				{
+					"uuid": "1cc85e75-36a0-4bb5-92d9-daf4e51bcd06",
+					"datePublished": 1679583600,
+					"name": "342. Regrets of a Trans-Care Specialist | Sara Stockton",
+					"duration": 7950
+				},
+				{
+					"uuid": "26efcd6a-20e1-4551-a8fa-74df5ff8d9c4",
+					"datePublished": 1679325300,
+					"name": "341. Jordan Peterson Interviews Presidential Candidate Vivek Ramaswamy",
+					"duration": 5729
+				},
+				{
+					"uuid": "d4d57a22-5e0c-4bb2-bad7-7fda970798c9",
+					"datePublished": 1678978800,
+					"name": "340. Dutch Farmers: Canaries in the Globalist Coal Mine | Michael Yon & Eva Vlaardingerbroek",
+					"duration": 5756
+				},
+				{
+					"uuid": "4d926650-9eef-4d9e-a3ea-97b0f99127c6",
+					"datePublished": 1678719600,
+					"name": "339. The Future: Vision and Invitation",
+					"duration": 3917
+				},
+				{
+					"uuid": "ba5d979c-39d3-4e44-a55e-8e7f033e366c",
+					"datePublished": 1678377625,
+					"name": "338. The Epidemic That Dare Not Speak Its Name | Stephen J Shaw",
+					"duration": 6070
+				},
+				{
+					"uuid": "dfa4efaf-14d5-4d69-9330-4781c9f0d001",
+					"datePublished": 1678118400,
+					"name": "337. In Response to Netanyahu | Maajid Nawaz",
+					"duration": 5746
+				},
+				{
+					"uuid": "04d73c27-9862-41c8-82c8-27ff398be13c",
+					"datePublished": 1677772800,
+					"name": "336. How to Educate Your Children | Jeff Sandefer",
+					"duration": 6931
+				}
+			],
+			"itunesId": 1184022695,
+			"description": "Join intellectual phenomenon Dr. Jordan Peterson for enlightening discourse that will change the way you think. This podcast breaks down the dichotomy of life through interviews and lectures that explain how individuals and culture are shaped by values, music, religion, and beyond. It will give you a new perspective and a modern understanding of your creativity, competence, and personality.",
+			"imageUrl": "https://image.simplecastcdn.com/images/4ffc189d-cacf-4e7d-a45d-df24966561b2/0e604571-6511-4c71-aff7-5188e4860f0f/3000x3000/jbp-podcast-cover-1.png?aid=rss_feed",
+			"authorName": "Dr. Jordan B. Peterson",
+			"genres": [
+				"PODCASTSERIES_EDUCATION",
+				"PODCASTSERIES_SCIENCE",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "badd7a5b-c121-44c4-8ffd-2e3e9ac191dd",
+			"name": "The Mindset Mentor",
+			"episodes": [
+				{
+					"uuid": "f4737181-51c3-4e3d-9173-c6ca59c1eb11",
+					"datePublished": 1680678000,
+					"name": "PERFECTIONISM is Destroying Your PRODUCTIVITY!",
+					"duration": 843
+				},
+				{
+					"uuid": "eccb039d-2c6c-4710-bba8-f902889640d4",
+					"datePublished": 1680641377,
+					"name": "3 Parts To A Successful Day",
+					"duration": 1183
+				},
+				{
+					"uuid": "b0c4ee80-65b8-4765-8400-01c4ae88dfe1",
+					"datePublished": 1680641233,
+					"name": "3 Steps To Set Boundaries",
+					"duration": 1175
+				},
+				{
+					"uuid": "1d6c17b7-35c9-4d6f-a668-0b21a92f7a43",
+					"datePublished": 1680166800,
+					"name": "Building A Life You Love",
+					"duration": 1157
+				},
+				{
+					"uuid": "68b977dc-1101-410b-a60e-ce265fef6690",
+					"datePublished": 1680076738,
+					"name": "How To Level Up Your Life",
+					"duration": 1441
+				},
+				{
+					"uuid": "8431646d-babf-4d60-a91b-f6621d923692",
+					"datePublished": 1679938349,
+					"name": "The Problem with Your Goals",
+					"duration": 1443
+				},
+				{
+					"uuid": "53fa3c63-b9c7-4ca8-894a-0a5a5b9ecf6a",
+					"datePublished": 1679653771,
+					"name": "How to Believe in Yourself",
+					"duration": 971
+				},
+				{
+					"uuid": "1d82dd5b-fcec-4b7e-bf8c-feb48bfaedfd",
+					"datePublished": 1679565450,
+					"name": "3 Things to Stop Doing Immediately",
+					"duration": 1167
+				},
+				{
+					"uuid": "9dbcb25a-5753-4cb2-945b-3b62d9e6f8db",
+					"datePublished": 1679479164,
+					"name": "Are You Losing Your Life to Your Job?",
+					"duration": 1257
+				},
+				{
+					"uuid": "2c6eb4e9-ae89-4d96-aa28-a70111eea7f0",
+					"datePublished": 1679355084,
+					"name": "Accept Your Fears",
+					"duration": 1103
+				}
+			],
+			"itunesId": 1033048640,
+			"description": "<p>The Mindset Mentor&trade; podcast is designed for anyone desiring motivation, direction, and focus in life. Host Rob Dial has amassed a passionate following of over 3 million social media followers, including business professionals, entrepreneurs, and small business owners with his expertise and passion for helping motivate people to become the best version of themselves.</p>\n<p>In this podcast, Rob blends neurology, neurobiology, psychology, early childhood development, cognitive behavioral therapy so that you can understand the way your brain and body work together, because when you understand yourself, it makes it much easier to make a plan to change and succeed. When you master your mindset, you master your life.</p>\n<p>Over the past 15 years, he has studied with some of the greatest thought leaders of our time like Tony Robbins, Ram Dass, Dr. Joe Dispenza, Jay Shetty, Andrew Huberman and many more.</p>\n<p>If you're ready to take your life to the next level, are searching for more purpose or you just need extra inspiration or motivation, tune in to The Mindset Mentor Podcast.</p>\n<p>Follow Rob on Instagram @RobDialJr <a href=\"https://www.instagram.com/robdialjr/\">https://www.instagram.com/robdialjr/</a></p>",
+			"imageUrl": "https://play.cdnstream1.com/zjb/image/download/6c/57/4d/6c574d6b-2a5a-485b-9401-b1f9f2aa5d6b_1400.jpg",
+			"authorName": "Rob Dial and Kast Media",
+			"genres": [
+				"PODCASTSERIES_HEALTH_AND_FITNESS",
+				"PODCASTSERIES_EDUCATION",
+				"PODCASTSERIES_BUSINESS"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "bf1b7bef-2e7e-49f4-96e0-349fb11cdbf8",
+			"name": "We Have Ways of Making You Talk",
+			"episodes": [
+				{
+					"uuid": "2a380b25-95ca-4fc8-a1bd-f8c2ae73f926",
+					"datePublished": 1680742855,
+					"name": "Between the Lines - Ep 1",
+					"duration": 2422
+				},
+				{
+					"uuid": "ea8f22c8-3867-4881-9854-f823fafe1bdd",
+					"datePublished": 1680570020,
+					"name": "The German Nuclear Programme",
+					"duration": 3320
+				},
+				{
+					"uuid": "8fd9949d-64e7-46ef-96f0-d89414ea161a",
+					"datePublished": 1680399120,
+					"name": "Family Stories Series 4: Episode 3",
+					"duration": 1089
+				},
+				{
+					"uuid": "7f984438-c2f8-4614-974e-149ac138643e",
+					"datePublished": 1680224037,
+					"name": "USA: We Have Ways - Americans in Italy",
+					"duration": 2558
+				},
+				{
+					"uuid": "c18981b5-f476-454f-9623-559f24d73eb0",
+					"datePublished": 1680137760,
+					"name": "Walking The Ground - Monte Cassino",
+					"duration": 2904
+				},
+				{
+					"uuid": "68ae8c16-155d-439d-bc03-b78f11936862",
+					"datePublished": 1680136783,
+					"name": "Restoring The Typhoon",
+					"duration": 2671
+				},
+				{
+					"uuid": "1eb4e3e0-3433-4580-a73e-1b9cbcbc40a0",
+					"datePublished": 1679961787,
+					"name": "Saving Scampton, Indian Adventures and Lessons from Italy",
+					"duration": 2925
+				},
+				{
+					"uuid": "7cdf47b8-3480-41df-86b7-14a68485ad05",
+					"datePublished": 1679792843,
+					"name": "Family Stories Series 4: Episode 2",
+					"duration": 1121
+				},
+				{
+					"uuid": "1915ad4a-7f96-4a57-a914-f3fcc664e2a9",
+					"datePublished": 1679622460,
+					"name": "USA: We Have Ways - The Real Saving Private Ryan",
+					"duration": 2540
+				},
+				{
+					"uuid": "74792b84-4805-4f1b-82bc-911986c8bf71",
+					"datePublished": 1679535900,
+					"name": "Battle of Ortona",
+					"duration": 1750
+				}
+			],
+			"itunesId": 1457552694,
+			"description": "<p>Achtung! Achtung!</p><br><p>Comedian <strong>Al Murray</strong> and historian <strong>James Holland</strong> discuss all matters <strong>Second World War</strong>.</p><br><p><strong>We Have Ways of Making You Talk</strong> is a bi-weekly show exploring the war in close up. James and Al have a stunning knowledge of their subject, but don't expect a linear narrative. The boys love a tangent and a forgotten tale.</p><br><p><strong>We Have Ways of Making You Talk</strong> roams down forgotten front lines, casts new villains and makes the case for unlikely heroes.</p><br><p>Send questions to James and Al via Twitter using #WeHaveWays or by email to wehavewayspodcast@gmail.com</p><br><p>Battle stations!</p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>",
+			"imageUrl": "https://assets.pippa.io/shows/61b78685169562ca56e9514a/414a9145-ff2b-4087-85ea-78b5bbb04e95.jpg",
+			"authorName": "Goalhanger Podcasts",
+			"genres": [
+				"PODCASTSERIES_HISTORY",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE",
+				"PODCASTSERIES_EDUCATION"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "cccd4fe8-d739-4bbe-9377-943fd3e2c432",
+			"name": "Duolingo ",
+			"episodes": [
+				{
+					"uuid": "dc4187db-f036-4c11-ab02-e817e8413f77",
+					"datePublished": 1575862964,
+					"name": "Teacher interview",
+					"duration": 4379
+				},
+				{
+					"uuid": "3441b04b-20c2-44ec-a99c-43f49d02a0ec",
+					"datePublished": 1571014816,
+					"name": "Duolingo",
+					"duration": 346
+				}
+			],
+			"itunesId": 1483840188,
+			"description": "Duolingo what is it and how can I incorporate it into my classroom ? Find out on today's episode.",
+			"imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/2473648/2473648-1571014989435-4a511b1c894c7.jpg",
+			"authorName": "Yatzil Marrero",
+			"genres": [
+				"PODCASTSERIES_EDUCATION_COURSES",
+				"PODCASTSERIES_EDUCATION"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "77463435-ab26-4af3-96d7-b9173f5d6ff3",
+			"name": "TED Talks Daily",
+			"episodes": [
+				{
+					"uuid": "4c3ba7f0-d2b6-430d-aaae-7233ab64cc98",
+					"datePublished": 1675784565,
+					"name": "A for-profit mindset for nonprofit success | Tolu Oyekan",
+					"duration": 734
+				},
+				{
+					"uuid": "9fa32c8f-42d8-4e3d-8583-8523b40219e9",
+					"datePublished": 1675681200,
+					"name": "5 tips for dealing with meeting overload | Cindy Solomon",
+					"duration": 308
+				},
+				{
+					"uuid": "f063df79-ee27-4732-9a72-0938d83d2b36",
+					"datePublished": 1675440607,
+					"name": "Could fungi actually be the key to humanity's survival? | David Andrew Quist",
+					"duration": 0
+				},
+				{
+					"uuid": "8d0e9074-df8b-4d48-995e-75ec761d30ca",
+					"datePublished": 1675353202,
+					"name": "The secret to making new friends as an adult | Marisa G. Franco",
+					"duration": 1903
+				},
+				{
+					"uuid": "4b17492b-8a55-4c89-9ae8-7b1192f113cd",
+					"datePublished": 1675267038,
+					"name": "How Black queer culture shaped history | Channing Gerard Joseph",
+					"duration": 485
+				},
+				{
+					"uuid": "d9199868-d515-44e4-a875-c7043fc33ad7",
+					"datePublished": 1675180108,
+					"name": "The fairy tales of the fossil fuel industry -- and a better climate story | Luisa Neubauer",
+					"duration": 589
+				},
+				{
+					"uuid": "a27506d1-b142-47ed-bbb4-9940d68f58b4",
+					"datePublished": 1675094811,
+					"name": "How to participate in your own legal defense | Lam Ho",
+					"duration": 394
+				},
+				{
+					"uuid": "600795f2-eaaa-4a4c-9099-63a5f8dfa09e",
+					"datePublished": 1674834656,
+					"name": "5 values for repairing the harms of colonialism | Jing Corpuz",
+					"duration": 781
+				},
+				{
+					"uuid": "9b6241d1-f1af-40ac-a30b-c5fcfafff0ff",
+					"datePublished": 1674748472,
+					"name": "The ecstasy of Eskista, an ancient Ethiopian dance | Melaku Belay",
+					"duration": 885
+				},
+				{
+					"uuid": "90693f61-b5b7-4df5-91a1-2534e15d04b1",
+					"datePublished": 1674661137,
+					"name": "Hidden connections that transcend borders and defy stereotypes | Aparna Bharadwaj",
+					"duration": 761
+				}
+			],
+			"itunesId": 160904630,
+			"description": "Every weekday, TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable — from Artificial Intelligence to Zoology, and everything in between — given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
+			"imageUrl": "https://pl.tedcdn.com/rss_feed_images/ted_talks_main_podcast/audio.png",
+			"authorName": "TED",
+			"genres": [
+				"PODCASTSERIES_EDUCATION",
+				"PODCASTSERIES_SOCIETY_AND_CULTURE",
+				"PODCASTSERIES_BUSINESS"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "16c0e8a8-2acb-4a66-b1ab-9c08f5d08616",
+			"name": "The Tim Ferriss Show",
+			"episodes": [
+				{
+					"uuid": "7a5bac95-e850-476d-98fa-2172c34fea9e",
+					"datePublished": 1680184872,
+					"name": "#664: Dr. Kelly Starrett — The Magic of Movement and Mobility, Training for Range of Motion, Breathing for Back Pain, Improving Your Balance, and More",
+					"duration": 7663
+				},
+				{
+					"uuid": "cb471019-1845-44ef-8f18-377f0591300f",
+					"datePublished": 1680103910,
+					"name": "#663: In Case You Missed It: February 2023 Recap of \"The Tim Ferriss Show\"",
+					"duration": 2229
+				},
+				{
+					"uuid": "4b1f2aaa-8f41-4b90-89c7-7c08c817371c",
+					"datePublished": 1679578956,
+					"name": "#662: David Deutsch and Naval Ravikant — The Fabric of Reality, The Importance of Disobedience, The Inevitability of Artificial General Intelligence, Finding Good Problems, Redefining Wealth, Foundations of True Knowledge, Harnessing Optimism, Quantum...",
+					"duration": 6494
+				},
+				{
+					"uuid": "27c1bf3e-654c-4866-87b0-f241ed0b7118",
+					"datePublished": 1678839616,
+					"name": "#661: Dr. Peter Attia — The Science and Art of Longevity, Optimizing Protein, Alcohol Rules, Lessons from Glucose Monitoring with CGMs, Boosting Your VO2 Max, Preventing Alzheimer's Disease, Early Cancer Detection, How to Use DEXA Scans, Nature’s Long...",
+					"duration": 8546
+				},
+				{
+					"uuid": "ebf74e84-9968-44fb-a5dc-d1edd07b2958",
+					"datePublished": 1678359600,
+					"name": "#660: Dr. Andrew Huberman — The Foundations of Physical and Mental Performance, Core Supplements, Sexual Health and Fertility, Sleep Optimization, Psychedelics, and More",
+					"duration": 10980
+				},
+				{
+					"uuid": "43dd56d6-11f1-4153-a6a7-269b09fea1dd",
+					"datePublished": 1677854031,
+					"name": "#659: Michael Mauboussin — How Great Investors Make Decisions, Harnessing The Wisdom (vs. Madness) of Crowds, Lessons from Race Horses, and More",
+					"duration": 7413
+				},
+				{
+					"uuid": "7a379145-e5d2-427c-b472-70a209411948",
+					"datePublished": 1677681881,
+					"name": "#658: CEO Coach Matt Mochary — Live Coaching with Tim, Why Fear and Anger Give Bad Advice, How to Perform Personal Energy Audits, The Power of Accountability Partners, Delegation Tips, Strategies for Hiring the Right People, and More",
+					"duration": 8722
+				},
+				{
+					"uuid": "3fecfbfc-4dc7-4e74-843f-62997949ee6d",
+					"datePublished": 1677153600,
+					"name": "#657: Professor John Vervaeke — How to Build a Life of Wisdom, Flow, and Contemplation",
+					"duration": 9349
+				},
+				{
+					"uuid": "a0cd584c-a858-407f-bd90-9f11b838375e",
+					"datePublished": 1676581099,
+					"name": "#656: Brené Brown — Striving versus Self-Acceptance, Saving Marriages, and More (Repost)",
+					"duration": 5220
+				},
+				{
+					"uuid": "8863968a-ceb6-4c85-b0e0-3b43350dc59b",
+					"datePublished": 1676385767,
+					"name": "#655: In Case You Missed It: January 2023 Recap of \"The Tim Ferriss Show\"",
+					"duration": 3009
+				}
+			],
+			"itunesId": 863897795,
+			"description": "Tim Ferriss is a self-experimenter and bestselling author, best known for The 4-Hour Workweek, which has been translated into 40+ languages.  Newsweek calls him \"the world's best human guinea pig,\" and The New York Times calls him \"a cross between Jack Welch and a Buddhist monk.\"  In this show, he deconstructs world-class performers from eclectic areas (investing, chess, pro sports, etc.), digging deep to find the tools, tactics, and tricks that listeners can use.",
+			"imageUrl": "https://content.production.cdn.art19.com/images/69/10/10/fb/691010fb-625e-4abe-993c-a57228b28dbe/91cb53ae0d5dbb379b9dffecf0a772593891d0d09bbe6d90ee746edbdb79e3ec75584f2ceb8260e9f675a90c05419b9b99842a76905b686f0f51c1a9d3e227ab.jpeg",
+			"authorName": "Tim Ferriss: Bestselling Author, Human Guinea Pig",
+			"genres": [
+				"PODCASTSERIES_BUSINESS_ENTREPRENEURSHIP",
+				"PODCASTSERIES_BUSINESS"
+			]
+		}
+	}
+},
+{
+	"data": {
+		"getPodcastSeries": {
+			"uuid": "36fe3cc8-e5ea-4536-94f4-e1edb1cffbc2",
+			"name": "The Price of Football",
+			"episodes": [
+				{
+					"uuid": "80eb8c7f-6284-4adb-aada-5dcbdb72b427",
+					"datePublished": 1680742800,
+					"name": "Reading's points deduction, Mitrovic's eight-game ban",
+					"duration": 3361
+				},
+				{
+					"uuid": "04d513de-fa4d-48da-a31a-c8fee9f35ff7",
+					"datePublished": 1680483600,
+					"name": "Moving kick-off times to save electricity, how leveraged buyouts work",
+					"duration": 4434
+				},
+				{
+					"uuid": "e3c56f31-2f1c-4449-8c83-ef6458885903",
+					"datePublished": 1680224400,
+					"name": "Interview: Llandudno FC director Tom Montgomery",
+					"duration": 2660
+				},
+				{
+					"uuid": "a862ad0e-0a2d-42b8-84e2-5e8aaa88918e",
+					"datePublished": 1680138000,
+					"name": "DAZN launches bid to show every EFL match, Oldham Athletic owners buy Boundary Park",
+					"duration": 3932
+				},
+				{
+					"uuid": "d66455f7-c2aa-4722-b585-24df951f9c67",
+					"datePublished": 1679878800,
+					"name": "Manchester United takeover bids submitted, Premier League refer Everton over alleged FFP breaches",
+					"duration": 4212
+				},
+				{
+					"uuid": "bad0912b-15dd-4d6d-92e7-661d8873aab3",
+					"datePublished": 1679536800,
+					"name": "Wigan Athletic points deduction, Premier League presents new financial deal to the EFL",
+					"duration": 5305
+				},
+				{
+					"uuid": "47c728ba-66e5-4be1-afb5-64dfb031e98a",
+					"datePublished": 1679277600,
+					"name": "Stadium improvements and FFP, payments owed to Russian clubs",
+					"duration": 3994
+				},
+				{
+					"uuid": "75a770ce-ecc0-444a-8378-720a251412d0",
+					"datePublished": 1679018400,
+					"name": "Interview: Mark Ives, general manager of The National League",
+					"duration": 2525
+				},
+				{
+					"uuid": "b07b1a0f-5b03-434c-b01e-c7600ccb70a9",
+					"datePublished": 1678932000,
+					"name": "Burnley and Huddersfield Town's transfer embargoes, Southend United season ticket prices",
+					"duration": 4285
+				},
+				{
+					"uuid": "396c97fd-d247-4d13-829d-23dedf0a24f9",
+					"datePublished": 1678672800,
+					"name": "Players' contracted hours, transfers and exchange rates",
+					"duration": 3020
+				}
+			],
+			"itunesId": 1482886394,
+			"description": "University of Liverpool football finance lecturer Kieran Maguire and comedian Kevin Day follow the money to find out what’s really going on behind the scenes of the beautiful game. The Price of Football is a Dap Dip production.",
+			"imageUrl": "https://megaphone.imgix.net/podcasts/0bad68b8-1ac3-11ec-a7ec-fb02300dc9ab/image/show-cover.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"authorName": "Kieran Maguire, Kevin Day, Dap Dip",
+			"genres": [
+				"PODCASTSERIES_SPORTS",
+				"PODCASTSERIES_BUSINESS"
+			]
+		}
+	}
 }
 
 ]

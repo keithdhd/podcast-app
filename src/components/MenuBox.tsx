@@ -1,35 +1,28 @@
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faList, faFileCirclePlus, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { MenuItem } from '../interfaces'
 
-export default function MenuBox(){
+
+interface MenuBoxProps {
+    items: Array<MenuItem>
+}
+
+export default function MenuBox({ items } : MenuBoxProps){
+
+    const menuItemElements = items.map( (item, index) => {
+        return ( <Item key={index}>
+                    {item.icon ? <FontAwesomeIcon icon={item.icon} /> : ""}
+                        
+                    <Description>
+                        { item.description }
+                    </Description>
+                </Item>
+        ) 
+    })
 
     return (
        <MenuItems>
-            <Item>
-                <FontAwesomeIcon icon={faHouse} />    
-                <Description>
-                    Explore Shows
-                </Description>
-            </Item>
-            <Item>
-                <FontAwesomeIcon icon={faList} />    
-                <Description>
-                    Subscriptions
-                </Description>
-            </Item>
-            <Item>
-                <FontAwesomeIcon icon={faFileCirclePlus} />    
-                <Description>
-                    Queue
-                </Description>
-            </Item>
-            <Item>
-                <FontAwesomeIcon icon={faPlus} />    
-                <Description>
-                    Add to RSS feed
-                </Description>
-            </Item>
+           {menuItemElements}
        </MenuItems>
     )
 

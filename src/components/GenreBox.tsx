@@ -4,10 +4,10 @@ import { Podcast } from '../interfaces'
 
 interface CategoryBoxProps {
     podcasts: Array<Podcast>
-    category: string
+    genreName: string
 }
 
-export default function CategoryBox({podcasts, category} : CategoryBoxProps){
+export default function GenreBox({podcasts, genreName} : CategoryBoxProps){
 
     const podcastElements = podcasts.map( (p: Podcast) => {
         return <PodcastSmall podcast={p} key={p.data.getPodcastSeries.uuid}/>
@@ -15,7 +15,7 @@ export default function CategoryBox({podcasts, category} : CategoryBoxProps){
 
     return (
         <>
-            <Header>{category}</Header>
+            <Header>{genreName}</Header>
             <CategoryContainer>
                 {podcastElements}
             </CategoryContainer>
@@ -43,6 +43,5 @@ const Header = styled.h5`
     display: -webkit-box;
     max-height: 48px;
     color: #202124;
-    margin-top: 40px;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 `
