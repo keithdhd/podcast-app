@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons'
 
 interface PlayButtonProps{
-    itunesId: number
-    duration: number
+    itunesId: number | undefined
+    duration: number | undefined
 }
 
 export function PlayButton({ itunesId, duration } : PlayButtonProps){

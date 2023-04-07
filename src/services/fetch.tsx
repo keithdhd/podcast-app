@@ -7,10 +7,11 @@ export const fetchPodcast = ( uuid: string ) => {
         uuid
         name
         episodes {
-          uuid
-          datePublished
-          name
-          duration
+          uuid,
+          datePublished,
+          name,
+          duration,
+          description
         }
         itunesId
         description

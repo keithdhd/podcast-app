@@ -1,10 +1,12 @@
-import { useState} from 'react'
 import { ApolloCache, ApolloError, useQuery } from '@apollo/client'
 import styled from 'styled-components'
 import { PlayButton } from './PlayButton'
 import { SubscribeButton } from './SubscribeButton'
 import { fetchPodcast } from '../services/fetch'
 import { Podcast } from '../interfaces'
+import * as dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
+dayjs.extend(relativeTime)
 
 interface PodcastDetailsProps { 
     uuid: string
@@ -18,26 +20,37 @@ export default function PodcastDetails({ uuid } : PodcastDetailsProps){
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error : {error.message} </p>;
     
-    console.log(data)
+    const podcastData: Podcast = {data: data}
 
-    return (
+    console.log(podcastData.data.getPodcastSeries.episodes[0].description)
+
+    return ( 
         <Container>
             <Top>
                 <Details>
-                    <Title>{data.getPodcastSeries.name}</Title>
-                    <Author>{data.getPodcastSeries.authorName}</Author>
+                    <Title>{podcastData?.data.getPodcastSeries.name}</Title>
+                    <Author>{podcastData?.data.getPodcastSeries.authorName}</Author>
                     <SubscribeButton />
                     <Blurb>
-                        {data.getPodcastSeries.description}
+                        {podcastData?.data.getPodcastSeries.description}
                     </Blurb>
                 </Details>
-                <Image src={data.getPodcastSeries.imageUrl}/>
+                <Image src={podcastData?.data.getPodcastSeries.imageUrl}/>
             </Top>
             <Bottom>
-                5 days ago
-                Podcast title 
+                <DatePublished>
+                    {dayjs().to(dayjs.unix(podcastData.data.getPodcastSeries.episodes[0].datePublished))}
+                </DatePublished>
+               
+                <EpisodeTitle>
+                    {podcastData.data.getPodcastSeries.episodes[0].name}
+                    <br />
+                    {podcastData.data.getPodcastSeries.episodes[0].description}
+                </EpisodeTitle>
 
-                <PlayButton duration={23} itunesId={9382}/>
+                <PlayButton 
+                    duration={3} 
+                    itunesId={123}/>
 
             </Bottom>
         </Container>
@@ -45,6 +58,30 @@ export default function PodcastDetails({ uuid } : PodcastDetailsProps){
 
 }
 
+const DatePublished = styled.h6`
+    letter-spacing: .025em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #5f6368;
+    text-align: left;
+    margin: 10px 0 0 0;
+`
+
+const EpisodeTitle = styled.h5`
+    letter-spacing: .01785714em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: #000000;
+    max-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    text-align: left;
+`
 
 const Details = styled.div`
     display: flex;
@@ -85,7 +122,7 @@ const Container = styled.div`
 `
 
 const Bottom = styled.div`
-    margin-top: 10px;
+    margin-top: 20px;
     border-top: 1px solid #dadce0;
 `
 
