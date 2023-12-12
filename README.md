@@ -8,6 +8,8 @@ A practice project to learn <a href="https://www.typescriptlang.org/">Typescript
 2. `cd` into the `podcast-app` directory
 3. Run the following commands... 
 
+You will need a <a href="https://taddy.org/developers/intro-to-taddy-graphql-api">Taddy API key</a> and add it to your environment variables. Taddy simplifies the process of building great podcast and comic apps. 
+
 ```
 npm install
 npm run dev
